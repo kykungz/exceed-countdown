@@ -1,13 +1,18 @@
+h5 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .text-pause {
   color:rgb(129, 129, 129);
 }
 
 .floating-logo {
   margin: -20px;
-  margin-bottom: -30px;
+  margin: auto;
   cursor: pointer;
   animation: floating 2s ease-in-out infinite;
   transition: all 300ms;
+  background: rgba(0, 0, 0, 0);
 }
 
 .floating-logo:hover {
