@@ -26,11 +26,11 @@ new Vue({
         return `Time's Up!!`
       } else if (h > 0) {
         console.log(h)
-        return `${h} Hour ${m} Minute ${s} Second`
+        return `${h} ชม. ${m} นาที ${s} วินาที`
       } else if (m > 0) {
-        return `${m} Minute ${s} Second`
+        return `${m} นาที ${s} วินาที`
       } else {
-        return `${s} Second`
+        return `${s} วินาที`
       }
     },
     startStopState () {
