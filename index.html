@@ -31,7 +31,7 @@
         </button>
       </span>
     </div>
-    <div v-show="!showing" @click="toggleSetting()" style="height: 100px" class="floating-logo"></div>
+    <div v-show="!showing" @click="toggleSetting()" style="height: 60px" class="floating-logo"></div>
     <h1 class="text-white">EXCEED CAMP 2018</h1>
     <h5 style="color: rgb(254,201,124)">"ค่ายทะลุฟ้า อ้า อ้า"</h5>
 
@@ -39,14 +39,17 @@
       status === 'pause' ? 'text-pause' : 'text-white', {'pulsing': isPanicTime}]">
       {{ timeLeft }}
     </h1>
+    <h2 class="time pt-3 pb-1 mt-4 text-white">
+      อัพโหลด Slide ที่ <i>bit.ly/exceed-pitching</i>
+    </h2>
     <div class="bottom">
       <div class="temple-wrapper">
         <img src="assets/img/mountain.svg" class="mountain1"></img>
         <img src="assets/img/mountain.svg" class="mountain2"></img>
-        <img src="assets/img/temple.svg"
-          :class="['temple', {'shaking': isPanicTime}]"></img>
-        <img src="assets/img/heros.svg"
-          :class="['heros', {'panic': isPanicTime}]"></img>
+        <!-- <img src="assets/img/temple.svg"
+          :class="['temple', {'shaking': isPanicTime}]"></img> -->
+        <!-- <img src="assets/img/heros.svg"
+          :class="['heros', {'panic': isPanicTime}]"></img> -->
       </div>
     </div>
   </div>

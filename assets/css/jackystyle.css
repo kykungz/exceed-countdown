@@ -50,6 +50,7 @@ h5 {
   bottom: 100px;
   max-width: 600px;
   width: 100%;
+  z-index: -1;
 }
 
 .heros {
@@ -126,7 +127,7 @@ h5 {
 }
 
 @keyframes shaking {
-  0, 100% {
+  0%, 100% {
     transform: translateX(0px);
   }
   50% {
@@ -135,7 +136,7 @@ h5 {
 }
 
 @keyframes panic {
-  0, 100% {
+  0%, 100% {
     transform: translateY(0);
   }
   50% {
@@ -144,7 +145,7 @@ h5 {
 }
 
 @keyframes pulsing {
-  0, 100% {
+  0%, 100% {
     color: white;
   }
   50% {
